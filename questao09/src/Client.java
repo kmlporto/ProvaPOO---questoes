@@ -10,5 +10,12 @@ public class Client {
 
         NumeroComChaves numeroComChaves = new NumeroComChaves(numeroComParentesesEAspas);
         System.out.println(numeroComChaves.imprime());
+
+        NumeroComAsteriscos numeroComAsteriscos = new NumeroComAsteriscos(numeroUm);
+        System.out.println(numeroComAsteriscos.imprime());
+
+        NumeroComAsteriscos numAspParChaAst = new NumeroComAsteriscos(numeroComChaves);
+        System.out.println(numAspParChaAst.imprime());
+
     }
 }
