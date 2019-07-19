@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fddc74b6-101f-4b0c-9b5a-ff05e8fd29f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Prova.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao02/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao02/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao02/SomadorAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao02/SomadorEsperado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao02/SomadorExistente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao04/AbstracaoLista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao04/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao04/ImplementacaoLista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao04/ImprimeCaracter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao04/ImprimeLetras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao04/ImprimeNumeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao04/ListaNaoOrdenada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao04/ListaOrdenada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao05/Arquivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao05/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao05/Dados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao05/Pasta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao06/Congresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao06/Dados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao06/Individuo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao06/Instituicao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao07/Celula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao07/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao07/Dados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao07/Linha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao07/Tabela.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao09/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao09/Numero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao09/NumeroComAspas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao09/NumeroComAsteriscos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao09/NumeroComChaves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao09/NumeroComParenteses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao09/NumeroDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questao09/NumeroUm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../questao08/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../questao08/src/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../questao08/src/Componente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../questao08/src/ComponenteConcreto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../questao08/src/Interceptador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../questao08/src/InterceptadorCronometro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../questao08/src/InterceptadorLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../questao08/src/InterceptadorVerificadorMinuto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../questao08/src/temp/InterceptadorDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicio03/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicio03/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicio03/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicio03/out/production/exercicio03/AbstracaoTamanho.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicio03/out/production/exercicio03/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicio03/out/production/exercicio03/CocaCola.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicio03/out/production/exercicio03/Guarana.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicio03/out/production/exercicio03/ImplementacaoRefrigerante.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicio03/out/production/exercicio03/TamanhoMedio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicio03/out/production/exercicio03/TamanhoPequeno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicio03/questao03.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicio03/src/AbstracaoTamanho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questao03/AbstracaoTamanho.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicio03/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questao03/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicio03/src/CocaCola.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questao03/CocaCola.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicio03/src/Fanta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questao03/Fanta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicio03/src/Guarana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questao03/Guarana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicio03/src/ImplementacaoRefrigerante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questao03/ImplementacaoRefrigerante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicio03/src/TamanhoGrande.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questao03/TamanhoGrande.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicio03/src/TamanhoMedio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questao03/TamanhoMedio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicio03/src/TamanhoPequeno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questao03/TamanhoPequeno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao02/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao02/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao02/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao02/out/production/questao02/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao02/out/production/questao02/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao02/out/production/questao02/SomadorAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao02/out/production/questao02/SomadorEsperado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao02/out/production/questao02/SomadorExistente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao02/questao02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao02/src/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao02/src/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao02/src/SomadorAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao02/src/SomadorEsperado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao02/src/SomadorExistente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao04/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao04/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao04/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao04/out/production/questao04/AbstracaoLista.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao04/out/production/questao04/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao04/out/production/questao04/ImplementacaoLista.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao04/out/production/questao04/ImprimeCaracter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao04/out/production/questao04/ImprimeLetras.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao04/out/production/questao04/ImprimeNumeros.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao04/out/production/questao04/ListaNaoOrdenada.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao04/out/production/questao04/ListaOrdenada.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao04/questao04.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao04/src/AbstracaoLista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao04/src/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao04/src/ImplementacaoLista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao04/src/ImprimeCaracter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao04/src/ImprimeLetras.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao04/src/ImprimeNumeros.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao04/src/ListaNaoOrdenada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao04/src/ListaOrdenada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao05/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao05/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao05/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao05/questao05.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../questao07/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao09/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao09/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao09/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao09/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao09/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao09/out/production/questao09/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao09/out/production/questao09/Numero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao09/out/production/questao09/NumeroComAspas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao09/out/production/questao09/NumeroComAsteriscos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao09/out/production/questao09/NumeroComChaves.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao09/out/production/questao09/NumeroComParenteses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao09/out/production/questao09/NumeroDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao09/out/production/questao09/NumeroUm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao09/questao09.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao09/src/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao09/src/Numero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao09/src/NumeroComAspas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao09/src/NumeroComAsteriscos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao09/src/NumeroComChaves.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao09/src/NumeroComParenteses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao09/src/NumeroDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao09/src/NumeroUm.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/questao09/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/questao09/NumeroComAspas.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/questao09/NumeroDecorator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/questao09/NumeroComChaves.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/questao09/NumeroComAsteriscos.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/questao09/NumeroComParenteses.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#126#127#0" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/questao09/NumeroComAsteriscos.java" />
+        <option value="$PROJECT_DIR$/src/questao02/Client.java" />
+        <option value="$PROJECT_DIR$/src/questao03/Fanta.java" />
+        <option value="$PROJECT_DIR$/src/questao04/ImprimeLetras.java" />
+        <option value="$PROJECT_DIR$/src/questao05/Dados.java" />
+        <option value="$PROJECT_DIR$/src/questao06/Simposio.java" />
+        <option value="$PROJECT_DIR$/src/questao06/Individuo.java" />
+        <option value="$PROJECT_DIR$/src/questao06/Dados.java" />
+        <option value="$PROJECT_DIR$/src/questao06/Instituicao.java" />
+        <option value="$PROJECT_DIR$/src/questao06/Congresso.java" />
+        <option value="$PROJECT_DIR$/src/questao07/Dados.java" />
+        <option value="$PROJECT_DIR$/src/questao09/Numero.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="716" />
+    <option name="y" value="27" />
+    <option name="width" value="650" />
+    <option name="height" value="741" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Prova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prova" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Prova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prova" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Prova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prova" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="questao06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Prova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prova" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="questao09" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/questao07" />
+      <recent name="$PROJECT_DIR$/src/questao05" />
+      <recent name="$PROJECT_DIR$/src/questao04" />
+      <recent name="$PROJECT_DIR$/src/questao02" />
+      <recent name="$PROJECT_DIR$/src/questao09" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Client (2)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questao03.Client" />
+      <module name="Prova" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questao03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questao07.Client" />
+      <module name="Prova" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questao07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questao09.Client" />
+      <module name="Prova" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questao09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client (2)" />
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fddc74b6-101f-4b0c-9b5a-ff05e8fd29f3" name="Default Changelist" comment="" />
+      <created>1563479549684</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563479549684</updated>
+      <workItem from="1563479553583" duration="4945000" />
+      <workItem from="1563486994847" duration="4347000" />
+      <workItem from="1563561610121" duration="3989000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13281000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="716" y="25" width="650" height="743" extended-state="4" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17384106" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32736155" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25618514" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="5" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32736155" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/questao02/SomadorEsperado.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao02/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao02/SomadorAdapter.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao02/SomadorExistente.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao02/Client.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao03/AbstracaoTamanho.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao03/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao03/CocaCola.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao03/Guarana.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao03/ImplementacaoRefrigerante.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao03/TamanhoGrande.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao03/TamanhoMedio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao03/TamanhoPequeno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao03/Fanta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao04/ImplementacaoLista.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao04/ListaNaoOrdenada.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao04/ListaOrdenada.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao04/ImprimeNumeros.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao04/ImprimeCaracter.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao04/AbstracaoLista.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao04/Client.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao04/ImprimeLetras.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao06/Simposio.java" />
+    <entry file="file://$PROJECT_DIR$/src/questao06/Dados.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao06/Instituicao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao06/Individuo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao06/Congresso.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao07/Celula.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao07/Dados.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao05/Arquivo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao05/Pasta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao05/Dados.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao05/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao07/Tabela.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao07/Linha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao07/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao09/NumeroComAsteriscos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao09/NumeroComParenteses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao09/NumeroUm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao09/Numero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao09/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao09/NumeroComAspas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao09/NumeroDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questao09/NumeroComChaves.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd5173d6-4de7-41d3-bae0-e10601565b88" name="Default Changelist" comment="">
+    <list default="true" id="b2894f4a-7987-46c8-9360-43940e8efac2" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../Prova/Prova.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Prova/src/questao02/Client.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Prova/src/questao02/Cliente.java" afterDir="false" />
@@ -29,6 +29,13 @@
       <change afterPath="$PROJECT_DIR$/../Prova/src/questao07/Dados.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Prova/src/questao07/Linha.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Prova/src/questao07/Tabela.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prova/src/questao08/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prova/src/questao08/Componente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prova/src/questao08/ComponenteConcreto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prova/src/questao08/Interceptador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prova/src/questao08/InterceptadorCronometro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prova/src/questao08/InterceptadorLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prova/src/questao08/InterceptadorVerificadorMinuto.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Prova/src/questao09/Client.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Prova/src/questao09/Numero.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Prova/src/questao09/NumeroComAspas.java" afterDir="false" />
@@ -37,9 +44,7 @@
       <change afterPath="$PROJECT_DIR$/../Prova/src/questao09/NumeroComParenteses.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Prova/src/questao09/NumeroDecorator.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Prova/src/questao09/NumeroUm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../questao08/src/Componente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../questao08/src/ComponenteConcreto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../questao08/src/Interceptador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercicio03/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercicio03/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercicio03/.idea/workspace.xml" beforeDir="false" />
@@ -98,7 +103,7 @@
       <change beforePath="$PROJECT_DIR$/../questao05/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../questao05/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../questao05/questao05.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../questao07/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../questao09/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../questao09/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../questao09/.idea/uiDesigner.xml" beforeDir="false" />
@@ -130,60 +135,78 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Celula.java">
+        <entry file="file://$PROJECT_DIR$/../Prova/src/questao08/InterceptadorLog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tabela.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Linha.java">
+        <entry file="file://$PROJECT_DIR$/../Prova/src/questao08/Client.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Prova/src/questao08/Interceptador.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#135#136#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Dados.java">
+        <entry file="file://$PROJECT_DIR$/../Prova/src/questao08/ComponenteConcreto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Prova/src/questao08/InterceptadorCronometro.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding>
+                <element signature="e#120#121#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Prova/src/questao08/InterceptadorVerificadorMinuto.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="24" selection-start-column="24" selection-end-line="1" selection-end-column="27" />
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -193,9 +216,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>2</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -203,15 +232,33 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Dados.java" />
-        <option value="$PROJECT_DIR$/src/Tabela.java" />
+        <option value="$PROJECT_DIR$/src/Componente.java" />
+        <option value="$PROJECT_DIR$/src/InterceptorDecorator.java" />
+        <option value="$PROJECT_DIR$/src/InterceptorLog.java" />
+        <option value="$PROJECT_DIR$/src/InterceptorCronometro.java" />
+        <option value="$PROJECT_DIR$/src/InterceptorVerificadorMinuto.java" />
+        <option value="$PROJECT_DIR$/src/InterceptadorDecorator.java" />
+        <option value="$PROJECT_DIR$/src/temp/InterceptadorDecorator.java" />
+        <option value="$PROJECT_DIR$/src/temp/InterceptadorCronometro.java" />
+        <option value="$PROJECT_DIR$/src/Interceptador.java" />
+        <option value="$PROJECT_DIR$/src/ComponenteConcreto.java" />
+        <option value="$PROJECT_DIR$/src/InterceptadorCronometro.java" />
+        <option value="$PROJECT_DIR$/src/InterceptadorVerificadorMinuto.java" />
+        <option value="$PROJECT_DIR$/src/InterceptadorLog.java" />
         <option value="$PROJECT_DIR$/src/Client.java" />
-        <option value="$PROJECT_DIR$/src/Celula.java" />
-        <option value="$PROJECT_DIR$/src/Linha.java" />
+        <option value="$PROJECT_DIR$/../Prova/src/questao08/InterceptadorLog.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="716" />
     <option name="y" value="27" />
     <option name="width" value="650" />
@@ -223,36 +270,40 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="questao07" type="b2602c69:ProjectViewProjectNode" />
-              <item name="questao07" type="462c0819:PsiDirectoryNode" />
+              <item name="questao08" type="b2602c69:ProjectViewProjectNode" />
+              <item name="questao08" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="questao07" type="b2602c69:ProjectViewProjectNode" />
-              <item name="questao07" type="462c0819:PsiDirectoryNode" />
+              <item name="questao08" type="b2602c69:ProjectViewProjectNode" />
+              <item name="questao08" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Prova" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -268,8 +319,8 @@
   </component>
   <component name="RunManager">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Client" />
-      <module name="questao07" />
+      <option name="MAIN_CLASS_NAME" value="questao08.Client" />
+      <module name="Prova" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -285,24 +336,26 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bd5173d6-4de7-41d3-bae0-e10601565b88" name="Default Changelist" comment="" />
-      <created>1563219994439</created>
+      <changelist id="b2894f4a-7987-46c8-9360-43940e8efac2" name="Default Changelist" comment="" />
+      <created>1563227564795</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1563219994439</updated>
-      <workItem from="1563219998073" duration="5606000" />
-      <workItem from="1563317609342" duration="2310000" />
-      <workItem from="1563484514781" duration="737000" />
+      <updated>1563227564795</updated>
+      <workItem from="1563227568994" duration="1095000" />
+      <workItem from="1563317114754" duration="409000" />
+      <workItem from="1563486906117" duration="8998000" />
+      <workItem from="1563561391163" duration="6827000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8653000" />
+    <option name="totallyTimeSpent" value="17329000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="716" y="27" width="650" height="741" extended-state="4" />
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27152318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0830008" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -319,101 +372,95 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33006537" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24980047" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Theme Preview" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/8.0.212-amzn/src.zip!/java/util/function/Consumer.java">
+    <entry file="file://$PROJECT_DIR$/src/temp/InterceptadorDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        <state relative-caret-position="30">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Celula.java">
+    <entry file="file://$PROJECT_DIR$/../Prova/src/questao08/Componente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tabela.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Linha.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Dados.java">
+    <entry file="file://$PROJECT_DIR$/../Prova/src/questao08/InterceptadorVerificadorMinuto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="24" selection-start-column="24" selection-end-line="1" selection-end-column="27" />
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Prova/src/questao08/InterceptadorCronometro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Prova/src/questao08/ComponenteConcreto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Prova/src/questao08/Interceptador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Prova/src/questao08/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Prova/src/questao08/InterceptadorLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
