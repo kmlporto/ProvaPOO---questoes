@@ -1,5 +1,5 @@
 package questao07;
 
-public interface Dados {
+public interface TabelaComponent {
     public void imprimir();
 }

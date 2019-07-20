@@ -1,6 +1,6 @@
 package questao07;
 
-public class Celula implements Dados{
+public class Celula implements TabelaComponent {
     private String conteudo;
 
     public Celula(String conteudo) {
@@ -9,9 +9,15 @@ public class Celula implements Dados{
 
     public void imprimir() {
         // Limita o conteúdo a exatamente 15 caracteres.
+        conteudo = conteudo + " ";
+
         if (conteudo.length()>15)
             conteudo = conteudo.substring(0, 15);
-        // Imprime na mesma linha e com borda lateral.
-        System.out.print(" | " + conteudo);
+        else{
+            while (conteudo.length() <= 15) {
+                conteudo = conteudo + " ";
+            }
+        }
+        System.out.print(" | " +  conteudo);
     }
 }
