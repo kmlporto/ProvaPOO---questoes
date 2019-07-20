@@ -1,34 +1,21 @@
 package questao05;
 
-public class Arquivo implements Dados {
+public class Arquivo extends ArquivoComponent {
 
-    private String nome;
     private Float tamanho;
 
     public Arquivo(String nome, Float tamanho) {
-        this.nome = nome;
+        super(nome);
         this.tamanho = tamanho;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
     }
 
     public Float getTamanho() {
         return tamanho;
     }
 
-    public void setTamanho(Float tamanho) {
-        this.tamanho = tamanho;
-    }
-
     @Override
     public String imprimir() {
-        return getNome() + " - " + getTamanho() + "KB";
+        return getNome() + " - " + getTamanho() + "KB\n";
     }
 
 }
