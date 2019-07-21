@@ -1,13 +1,14 @@
 package questao06;
 
-public class Individuo {
-    public int assento;
+public class Individuo extends ParticipanteComponent{
+    public String assento;
 
-    public Individuo(){
-        this.assento = 1;
+    public Individuo(String nome, String assento){
+        super(nome);
+        this.assento = assento;
     }
 
-    public int getAssento() {
+    public String getAssunto() {
         return assento;
     }
 }

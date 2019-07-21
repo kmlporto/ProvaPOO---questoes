@@ -6,7 +6,6 @@ import java.util.List;
 public class Pasta extends ArquivoComponent{
 
     private List<ArquivoComponent> arquivos = new ArrayList<>();
-    private List<Pasta> pastas = new ArrayList<>();
 
     public Pasta(String nome) {
         super(nome);

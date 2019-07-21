@@ -1,21 +1,24 @@
 package questao06;
 
-public class Congresso implements Dados{
+import java.util.ArrayList;
+import java.util.List;
 
-    public int assentos;
-    public int totalParticipantes;
+public class Congresso {
+    List<ParticipanteComponent> participantes = new ArrayList<ParticipanteComponent>();
 
-    // TODO: 18/07/19
+    public void add(ParticipanteComponent participante){
+        participantes.add(participante);
+    }
+
     public int totalParticipantes(){
-        return 0;
+        return this.participantes.size();
     }
 
     public int totalAssentos(){
-        return 0;
+        int totalAssentos = 0;
+        for (ParticipanteComponent participante: participantes)
+            totalAssentos = totalAssentos + participante.getTotalParticipante();
+        return totalAssentos;
     }
 
-    @Override
-    public int contagemPessoas() {
-        return totalParticipantes();
-    }
 }
